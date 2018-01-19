@@ -1,0 +1,102 @@
+  @import 'variable.less';
+  .page_medicalArchival, .page_exerciseProcess{
+    .w_item_more{
+      padding: 0;
+      .item_more{
+        width: 92%;
+      }
+    }
+    .item_more{
+      position: relative;
+      text-indent: 0;
+      &:after{
+        content:'';
+        display: block;
+        position: absolute;
+        width: 92%;
+        height: 1px;
+        bottom: 0;
+        background: @bottom_line_color;
+      }
+      .next_ico{
+        right: .22rem;
+      }
+    }
+    .ipt_box{
+      background: #fff;
+      margin-bottom: 0.2rem;
+      /* 选择按钮 */
+      .select_btn_box{
+        padding-top: 0.38rem;
+        padding-bottom: 0.4rem;
+        padding-right: 0.3rem;
+        padding-left: 0.3rem;
+        overflow: hidden;
+        .title{
+          .fz(30px);
+          padding-bottom: 0.1rem;
+        }
+        .jas_btn{
+          float: left;
+          height: 0.58rem;
+          padding: 0 0.23rem;
+          min-width: 0.8rem;
+          color: @base_text_color;
+          border-color: @base_text_color;
+          margin-right: 0.3rem;
+          .fz(24px);
+          &.active{
+            border-color: @theme_color;
+            background: @theme_color;
+            color: #fff;
+          }
+        }
+      }
+      /* 描述 */
+      &.des_img{
+        .vux-x-textarea{
+          min-height: 2.0rem;
+          padding-top: 0.4rem;
+          &:after{
+            content:'';
+            display: block;
+            display: none;
+            position: absolute;
+            width: 92%;
+            height: 1px;
+            bottom: 0;
+            background: @bottom_line_color;
+          }
+        }
+
+      }
+      /* 关节 */
+      &.arthro{
+        .tag_li{
+          display: inline-block;
+          text-align: center;
+          width: 1.35rem;
+          &:last-of-type{
+            margin-right: 0;
+          }
+
+          .sel_item{
+            display: inline-block;
+            width: 0.84rem;
+            height: 0.84rem;
+            border-radius:50%;
+            background-size: contain;
+          }
+          .txt{
+            display: block;
+          }
+
+        }
+      }
+    }
+    .imgs{
+      .image{
+        width: 100%;
+      }
+    }
+  }

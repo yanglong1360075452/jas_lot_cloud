@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-application-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-application-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-application-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-archival-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-archival-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-archival-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-device-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-device-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-dict-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-dict-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-dict-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-exercise-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-exercise-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-exercise-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-manage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-score-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-score-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-score-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-socket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-user-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jas-wechat-api" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

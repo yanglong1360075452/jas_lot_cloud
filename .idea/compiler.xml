@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jas-application-api" />
+        <module name="jas-application-service" />
+        <module name="jas-application-service-api" />
+        <module name="jas-archival-api" />
+        <module name="jas-archival-service" />
+        <module name="jas-archival-service-api" />
+        <module name="jas-common" />
+        <module name="jas-device-service" />
+        <module name="jas-device-service-api" />
+        <module name="jas-dict-api" />
+        <module name="jas-dict-service" />
+        <module name="jas-dict-service-api" />
+        <module name="jas-exercise-api" />
+        <module name="jas-exercise-service" />
+        <module name="jas-exercise-service-api" />
+        <module name="jas-manage" />
+        <module name="jas-score-api" />
+        <module name="jas-score-service" />
+        <module name="jas-score-service-api" />
+        <module name="jas-server" />
+        <module name="jas-socket" />
+        <module name="jas-user-service" />
+        <module name="jas-user-service-api" />
+        <module name="jas-wechat-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jas-application-api" target="1.7" />
+      <module name="jas-application-service" target="1.7" />
+      <module name="jas-application-service-api" target="1.7" />
+      <module name="jas-archival-api" target="1.7" />
+      <module name="jas-archival-service" target="1.7" />
+      <module name="jas-archival-service-api" target="1.7" />
+      <module name="jas-common" target="1.7" />
+      <module name="jas-device-service" target="1.7" />
+      <module name="jas-device-service-api" target="1.7" />
+      <module name="jas-dict-api" target="1.7" />
+      <module name="jas-dict-service" target="1.7" />
+      <module name="jas-dict-service-api" target="1.7" />
+      <module name="jas-exercise-api" target="1.7" />
+      <module name="jas-exercise-service" target="1.7" />
+      <module name="jas-exercise-service-api" target="1.7" />
+      <module name="jas-manage" target="1.7" />
+      <module name="jas-score-api" target="1.7" />
+      <module name="jas-score-service" target="1.7" />
+      <module name="jas-score-service-api" target="1.7" />
+      <module name="jas-server" target="1.7" />
+      <module name="jas-socket" target="1.7" />
+      <module name="jas-user-api" target="1.8" />
+      <module name="jas-user-service" target="1.7" />
+      <module name="jas-user-service-api" target="1.7" />
+      <module name="jas-wechat-api" target="1.7" />
+      <module name="trunk" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

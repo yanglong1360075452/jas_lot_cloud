@@ -1,0 +1,108 @@
+  .page_member_list{
+    .tag_li{
+      height: 1.29rem;
+      line-height: 1.29rem;
+      padding-left: 0.3rem;
+      padding-right: 0.3rem;
+      .fz(30px);
+      background: #fff;
+      border-bottom: 1px solid @bottom_line_color;
+      &.new_user{
+        .txt{
+          padding-top: 0.4rem !important;
+        }
+      }
+      .member_item{
+        overflow: hidden;
+        position: relative;
+        .img{
+          margin-top: 0.2rem;
+          margin-right: 0.3rem;
+          background-color: #ccc;
+          background-size: cover;
+          background-position:center;
+          background-repeat: no-repeat;
+          width: .9rem;
+          height: .9rem;
+          border-radius:50%;
+          float: left;
+        }
+        .txt{
+          width: 59%;
+          line-height: normal;
+          padding-top: 0.2rem;
+          float: left;
+
+          .name{
+            .fz(30px);
+            color: @base_text_color;
+            height: 0.55rem;
+            line-height: 0.55rem;
+
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+
+            .plan{
+              .fz(12px);
+            }
+          }
+          .des{
+            .fz(24px);
+            color: @placeholder_color;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+          }
+        }
+        .ico_new_msg{
+          display: block;
+          width: 0.2rem;
+          height: 0.2rem;
+          background: #ff6a4e;
+          border-radius:50%;
+          position: absolute;
+          top: 0.2rem;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+        }
+        .btn{
+          min-width: 0.56rem;
+          color: @theme_color;
+          border: 1px solid @theme_color;
+          height: 0.48rem;
+          line-height: 0.48rem;
+          margin-top: 0.4rem;
+          .fz(24px);
+          &.accept{
+            background-image: url(../assets/img/icon_ok@2x.png);
+            background-size:contain;
+            background-repeat: no-repeat;
+            border: none;
+            min-width: 0.57rem;
+            height: 0.49rem;
+            line-height: 0.49rem;
+          }
+          &.doctor{
+            color: #fff;
+            background-image: url(../assets/img/icon_btn_bg.png);
+            background-size:contain;
+            background-repeat: no-repeat;
+            border: none;
+            min-width: 0.57rem;
+            height: 0.49rem;
+            line-height: 0.49rem;
+            
+            &.accept{
+              background: none;
+              color: @accept_color;
+            }
+          }
+        }
+
+      }
+
+
+    }
+  }

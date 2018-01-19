@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jas-application-api/jas-application-api.iml" filepath="$PROJECT_DIR$/jas-application-api/jas-application-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-application-service/jas-application-service.iml" filepath="$PROJECT_DIR$/jas-application-service/jas-application-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-application-service-api/jas-application-service-api.iml" filepath="$PROJECT_DIR$/jas-application-service-api/jas-application-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-archival-api/jas-archival-api.iml" filepath="$PROJECT_DIR$/jas-archival-api/jas-archival-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-archival-service/jas-archival-service.iml" filepath="$PROJECT_DIR$/jas-archival-service/jas-archival-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-archival-service-api/jas-archival-service-api.iml" filepath="$PROJECT_DIR$/jas-archival-service-api/jas-archival-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-common/jas-common.iml" filepath="$PROJECT_DIR$/jas-common/jas-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-device-service/jas-device-service.iml" filepath="$PROJECT_DIR$/jas-device-service/jas-device-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-device-service-api/jas-device-service-api.iml" filepath="$PROJECT_DIR$/jas-device-service-api/jas-device-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-dict-api/jas-dict-api.iml" filepath="$PROJECT_DIR$/jas-dict-api/jas-dict-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-dict-service/jas-dict-service.iml" filepath="$PROJECT_DIR$/jas-dict-service/jas-dict-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-dict-service-api/jas-dict-service-api.iml" filepath="$PROJECT_DIR$/jas-dict-service-api/jas-dict-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-exercise-api/jas-exercise-api.iml" filepath="$PROJECT_DIR$/jas-exercise-api/jas-exercise-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-exercise-service/jas-exercise-service.iml" filepath="$PROJECT_DIR$/jas-exercise-service/jas-exercise-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-exercise-service-api/jas-exercise-service-api.iml" filepath="$PROJECT_DIR$/jas-exercise-service-api/jas-exercise-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-manage/jas-manage.iml" filepath="$PROJECT_DIR$/jas-manage/jas-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-score-api/jas-score-api.iml" filepath="$PROJECT_DIR$/jas-score-api/jas-score-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-score-service/jas-score-service.iml" filepath="$PROJECT_DIR$/jas-score-service/jas-score-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-score-service-api/jas-score-service-api.iml" filepath="$PROJECT_DIR$/jas-score-service-api/jas-score-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-server/jas-server.iml" filepath="$PROJECT_DIR$/jas-server/jas-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-socket/jas-socket.iml" filepath="$PROJECT_DIR$/jas-socket/jas-socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-user-service/jas-user-service.iml" filepath="$PROJECT_DIR$/jas-user-service/jas-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-user-service-api/jas-user-service-api.iml" filepath="$PROJECT_DIR$/jas-user-service-api/jas-user-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jas-wechat-api/jas-wechat-api.iml" filepath="$PROJECT_DIR$/jas-wechat-api/jas-wechat-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/trunk.iml" filepath="$PROJECT_DIR$/.idea/trunk.iml" />
+    </modules>
+  </component>
+</project>

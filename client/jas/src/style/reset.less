@@ -1,0 +1,95 @@
+@import './variable.less'; // 变量
+// 样式重置 -----------------------------------------------------------------------------------------------------
+
+body{
+  font-family: "PingFangSC", "PingFangSC-Medium", "sans-serif", "San Francisco", "Source Han Sans", "苹方", "Roboto", "思源黑体", "Microsoft Yahei", "微软雅黑";
+  background: @no_content_bg_color;
+  .fz(28px) !important;
+  color: @base_text_color;
+}
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img {
+  margin: 0;
+  padding: 0
+}
+fieldset,img {
+  border: 0
+}
+img {
+  display: block
+}
+address,caption,cite,code,dfn,th,var {
+  font-style: normal;
+  font-weight: normal
+}
+ul,ol {
+  list-style: none
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0
+}
+select,input {
+  vertical-align: middle
+}
+select,input,textarea {
+  font-size: 12px;
+  margin: 0
+}
+input[type="text"],input[type="password"],textarea {
+  outline-style: none;
+  -webkit-appearance: none
+}
+textarea {
+  resize: none
+}
+table {
+  border-collapse: collapse
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #cacaca;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color:#cacaca;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color:#cacaca;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color:#cacaca;
+}
+a,a:hover{
+  text-decoration: none;
+}
+
+/* 插件样式重置 */
+
+// 日期插件
+.dp-header {
+  .dp-item {
+    height: 1rem !important;
+    line-height: 1rem !important;
+    color: @theme_color !important;
+    background: @cur_block_bg_color;
+  }
+}
+.vux-popup-header {
+  height: 1rem !important;
+  line-height: 1rem !important;
+  background: @cur_block_bg_color;
+  .vux-popup-header-left,
+  .vux-popup-header-right {
+    color: @theme_color !important;
+  }
+}
+.weui-icon-checked::before {
+  color: @theme_color !important;
+}
+
+.vux-popup-mask.vux-popup-show {
+  z-index: 1000 !important;
+}
+
